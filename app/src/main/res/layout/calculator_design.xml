@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/calculator_show">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="160dp"
+            android:layout_marginBottom="10dp"
+            android:text="3453,43 + 335554 * "
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1.5"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            tools:ignore="NestedWeights">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_c"
+                android:text="C"
+                android:textSize="40sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/calculator_icons"
+                android:text="()"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/calculator_icons"
+                android:text="%"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/calculator_icons"
+                android:text="/"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            tools:ignore="NestedWeights">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_icons"
+                android:text="7"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/calculator_icons"
+                android:text="8"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/calculator_icons"
+                android:text="9"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_icons"
+                android:text="x"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            tools:ignore="NestedWeights">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/calculator_icons"
+                android:text="4"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/calculator_icons"
+                android:text="5"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_icons"
+                android:text="6"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/calculator_icons"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            tools:ignore="NestedWeights">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/calculator_icons"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_icons"
+                android:text="2"
+                android:clickable="true"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_icons"
+                android:text="3"
+                android:clickable="true"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_icons"
+                android:text="+"
+                android:clickable="true"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            tools:ignore="NestedWeights">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_icons"
+                android:text="+/-"
+                android:clickable="true"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_icons"
+                android:text="0"
+                android:clickable="true"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_icons"
+                android:text="."
+                android:clickable="true"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_equals"
+                android:text="="
+                android:clickable="true"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
